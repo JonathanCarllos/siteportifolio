@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/J.ico" />
+    <!-- Fonte -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <!-- Icones Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jonathan Carlos - Dev</title>
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#home">
+                    <img src="./img/jonathanlogo.png" alt="logo">
+                </a>
+            </div><!--Logo-->
+            <div class="menu-desktop">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button onclick="animar()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="btn-contato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div><!--Botão de contato-->
+        </div><!--Interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="home">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo">
+                        <h1>DESENVOLVEDOR FULLSTACK <span>&</span>
+                            <br>
+                            GERANDO EXPERIÊNCIA DIGITAIS.
+                        </h1>
+                        <p>Em um mundo onde criatividade e inovação são essenciais, estou aqui para transformar sua
+                            visão em realidade. Através de um design marcante, funcionalidade intuitiva e estratégias de
+                            otimização, vou criar uma presença online que se destaque.</p>
+
+                        <div class="btn-contato">
+                            <a href="#formulario">
+                                <button>Entre em contato<i class="bi bi-envelope"></i></button>
+                            </a>
+                        </div>
+                    </div><!-- Texto do topo do site -->
+
+                    <div class="img-topo">
+                        <img src="./img/fotoperfil.png" alt="imagem perfil">
+                    </div><!-- Imagem do topo -->
+                </div>
+            </div><!-- Interface -->
+        </section><!-- Topo do site -->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Um site é, de fato, uma presença online composta por páginas da web inter-relacionadas, acessíveis através de um navegador da web. Ele serve como um canal para fornecer informações, serviços ou entretenimento aos usuários da internet. Esses sites podem variar em termos de conteúdo, funcionalidades e elementos de design para atender às necessidades específicas de seus visitantes. Em resumo, um site é uma parte fundamental da presença online de uma empresa, organização ou indivíduo, permitindo que eles se conectem com seu público-alvo de maneira eficaz e eficiente.</p>
+                    </div><!-- Especialidades -->                  
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-pc-display"></i>
+                        <h3>Sistemas Web</h3>
+                        <p> Um aplicativo web é uma aplicação de software que os usuários acessam e utilizam por meio de um navegador da web, como Google Chrome, Mozilla Firefox ou Safari.
+                             Ele fornece uma interface de usuário interativa, geralmente composta por páginas da web, que permite aos usuários realizar uma variedade de tarefas e operações diretamente pela internet, sem a necessidade de instalação local.
+                              Essas tarefas podem incluir desde a visualização de conteúdo estático até a interação com funcionalidades dinâmicas, como preenchimento de formulários,
+                               envio de dados, realização de transações financeiras, comunicação em tempo real e muito mais.</p>
+                    </div><!-- Especialidades -->
+
+                </div><!-- Flex -->
+            </div><!-- Interface -->
+        </section><!-- Minhas Especialidaes -->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="./img/fotoperfil.png" alt="imagem perfil sobre mim" height="300" width="300">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>OLÁ, EU SOU O <span>JONATHAN CARLOS MOURA DA SILVA</span></h2>
+                        <p> Um apaixonado por transformar códigos em soluções inovadoras.
+                            Minha jornada acadêmica na UNIFAAT aprimorou minhas habilidades em C#, ASP.Net Core MVC,
+                            Windows Forms, HTML, CSS e Javascript.
+                            Além disso, explorei o universo do Git e Java.
+                            <br><br>
+                            Durante meus estudos, mergulhei em projetos desafiadores, acumulando experiência em suporte
+                            e desenvolvimento.
+                            Destaco meu trabalho no projeto UNIFISIO, um sistema em ASP .Net Framework para a clínica de
+                            fisioterapia da faculdade.
+                            Desenvolvi funcionalidades que facilitam o gerenciamento de pacientes, estagiários e
+                            fisioterapeutas, permitindo a criação de anamneses personalizadas.
+                            Os pacientes podem acompanhar seu quadro clínico de forma intuitiva através de login
+                            exclusivo.
+                            <br><br>
+                            Sempre sedento por conhecimento, estou aberto a novas linguagens e oportunidades que
+                            desafiem meu potencial.
+                            Vamos conectar e explorar o universo do desenvolvimento juntos!
+                        </p>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/jonathancarllos1994/"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/JonathanCarllos"><button><i class="bi bi-github"></i></button></a>
+                            <a href="mailto:jonathan.carllos1994@gmail.com"><button><i
+                                        class="bi bi-envelope-fill"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Sobre mim -->
+
+        <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port">
+                        <img src="./img/sistemalanchonete.png" alt="sistemalanchonete">
+                    </div>
+                    <div class="txt-port1">
+                        <h2>Sistema de Lanchonete</h2>
+                        <p>Desenvolvemos um sistema completo para lanchonetes, oferecendo dois acessos distintos: um
+                            para os clientes e outro para a administração.
+
+                            Para os clientes, proporcionamos uma plataforma intuitiva que permite o cadastro fácil e a
+                            realização de pedidos de forma eficiente. Com nosso sistema, os clientes podem explorar o
+                            menu, selecionar seus itens favoritos, personalizar seus pedidos e finalizá-los com apenas
+                            alguns cliques. Além disso, eles têm a comodidade de acompanhar o status de seus pedidos em
+                            tempo real, garantindo uma experiência satisfatória.</p>
+                        <p>
+                            Para a administração da lanchonete, fornecemos uma interface administrativa poderosa e
+                            segura. Aqui, os administradores têm acesso total aos pedidos recebidos, podendo
+                            gerenciá-los, atualizar seu status e fornecer informações importantes aos clientes. Além
+                            disso, oferecemos ferramentas para o cadastro simples e rápido de novos produtos, permitindo
+                            uma gestão eficaz do cardápio da lanchonete.</p>
+                        <p>
+                            Com nosso sistema, buscamos otimizar a operação da lanchonete, proporcionando uma
+                            experiência aprimorada tanto para os clientes quanto para a equipe administrativa.
+                        </p>
+                        <h3>Asp .Net <span>-</span> JavaScript <span>-</span> CSS <span>-</span> SQL Server
+                            <span>-</span>
+                            Bootstrap
+                        </h3>
+                        <div class="btn-port">
+                            <a href="https://github.com/JonathanCarllos/Lanchonete.git"><button><i
+                                        class="bi bi-code-slash"></i></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex port2">
+                    <div class="txt-port2">
+                        <h2>Unifisio</h2>
+                        <p>
+                            Nosso sistema de gerenciamento para clínicas de fisioterapia foi desenvolvido com o objetivo
+                            de melhorar a eficiência operacional, promover o engajamento do paciente e facilitar o
+                            monitoramento contínuo do tratamento.
+                            Com recursos abrangentes e uma interface intuitiva, estamos comprometidos em fornecer uma
+                            solução de alta qualidade para atender às necessidades específicas de sua clínica.
+                        </p>
+                        <h3>Asp .Net Framework <span>-</span> JavaScript <span>-</span> CSS <span>-</span> MySQl</h3>
+                        <div class="btn-port">
+                            <a href="https://github.com/JonathanCarllos/Unifisio_WebAplica-o.git"><button><i
+                                        class="bi bi-code-slash"></i></i></button></a>
+                        </div>
+                    </div>
+                    <div class="img-port">
+                        <img src="./img/unifisio.jpg" alt="Unifisio">
+                    </div>
+                </div><!-- Conversor de Moedas -->
+
+                <div class="flex">
+                    <div class="img-port">
+                        <img src="./img/crudreact.jpg" alt="CRUD React">
+                    </div>
+                    <div class="txt-port1">
+                        <h2>CRUD React</h2>
+                        <p>
+                            Um CRUD em React é uma aplicação que realiza as quatro operações básicas em um sistema de
+                            gerenciamento de dados: Create (criar), Read (ler), Update (atualizar) e Delete (excluir).
+                            Em
+                            uma aplicação React, o CRUD é implementado utilizando componentes React, estado local ou
+                            global
+                            (por exemplo, usando o Redux), e chamadas para uma API backend para interagir com o banco de
+                            dados.
+                        </p>
+                        <h3>React <span>-</span> JavaScript <span>-</span> CSS</h3>
+                        <div class="btn-port">
+                            <a href="https://github.com/JonathanCarllos/ProjetoReact.git"><button><i
+                                        class="bi bi-code-slash"></i></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Meu Portifólio -->
+
+        <section class="formulario" id="formulario">
+            <div class="interface">
+                <h2 class="titulo">ENTRE EM <span>CONTATO.</span></h2>
+                <form method="post" action="envia.php">
+                    <p>Por favor, preencha o formulário abaixo e ficarei feliz em entrar em contato com você o mais
+                        breve possível.</p>
+                    <div class="input-single">
+                        <input type="text" name="nome" id="nome-box" class="input" autocomplete="off" required>
+                        <label for="nome-box">Seu nome completo</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="text" name="email" id="email-box" class="input" autocomplete="off" required>
+                        <label for="email-box">Seu e-mail</label>
+                    </div>
+
+                    <div class="input-single">
+                        <input type="text" name="telefone" id="tel-box" class="input" autocomplete="off" required>
+                        <label for="tel-box">Seu telefone</label>
+                    </div>
+
+                    <div class="btn-form"><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+        </section><!-- Formulário -->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer borda">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="./img/jonathanlogo.png" alt="Logo do meu footer">
+                    </div>
+                    <div class="btn-social btn-footer-mobile">
+                        <a href="https://www.linkedin.com/in/jonathancarllos1994/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/JonathanCarllos"><button><i class="bi bi-github"></i></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line-footer">
+                <p><i class="bi bi-envelope-fill"></i> <a
+                        href="mailto:jonathan.carllos1994@gmail.com">jonathan.carllos1994@gmail.com</a></p>
+            </div>
+        </div>
+    </footer><!-- Meu Rodapé -->
+
+    <script src="./js/site.js"></script>
+</body>
+
+</html>
